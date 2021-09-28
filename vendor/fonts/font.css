@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'),
+    url('./Inter\ Web/woff2') format('woff2'),
+    url('./Inter\ Web/woff') format('woff'),
+    url('./Inter\ Desktop/woff2') format('woff2'),
+    url('./Inter\ Desktop/woff') format('woff'),
+    url('./Inter\ Variable/woff2') format('woff2'),
+    url('./Inter\ Variable/woff') format('woff'),
+    url('./Inter\ Hinted\ for\ Windows/woff2') format('woff2'),
+    url('./Inter\ Hinted\ for\ Windows/woff') format('woff'),
+}

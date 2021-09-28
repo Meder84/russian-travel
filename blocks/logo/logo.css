@@ -1,7 +1,9 @@
 
 .logo {
+  display: flex;
   background-repeat: no-repeat;
-  background-size: contain;
-  width: 183px;
-  z-index: 3;
+  background-size: cover;
+  width: 176px;
+  height: 52px;
+  border: 1px solid red;
 }
