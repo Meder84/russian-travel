@@ -1,0 +1,16 @@
+.lead__title {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 96px;
+	font-weight: 900;
+	line-height: 1.04;
+	max-width: calc(100% - 264px);
+	text-rendering: optimizeLegibility;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	border: 1px solid red;
+}
