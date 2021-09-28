@@ -1,12 +1,24 @@
 @font-face {
   font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
   src: local('Inter'),
-    url('./Inter\ Web/woff2') format('woff2'),
-    url('./Inter\ Web/woff') format('woff'),
-    url('./Inter\ Desktop/woff2') format('woff2'),
-    url('./Inter\ Desktop/woff') format('woff'),
-    url('./Inter\ Variable/woff2') format('woff2'),
-    url('./Inter\ Variable/woff') format('woff'),
-    url('./Inter\ Hinted\ for\ Windows/woff2') format('woff2'),
-    url('./Inter\ Hinted\ for\ Windows/woff') format('woff'),
+    url('./Inter-Web/Inter-Medium.woff2') format('woff2'),
+    url('./Inter-Web/Inter-MediumItalic.woff') format('woff')
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Inter'),
+    url('./Inter-Web/Inter-Black.woff2') format('woff2'),
+    url('./Inter-Web/Inter-Black.woff') format('woff'),
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Inter'),
+    url('./Inter-Web/Inter-Bold.woff2') format('woff2'),
+    url('./Inter-Web/Inter-Bold.woff') format('woff')
 }
