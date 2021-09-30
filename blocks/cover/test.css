@@ -1,0 +1,26 @@
+.container {
+  background-image: url(../../images/cover-baykal.jpg);
+  background-size: cover;
+  width: 100%;
+  position: relative;
+}
+.content {
+  width: 100%;
+  position: relative;
+}
+.container::before {
+  content:"";
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  opacity: 0;
+  
+}
+
+.container:hover::before {
+opacity: 1;
+}

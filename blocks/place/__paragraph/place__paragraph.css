@@ -7,3 +7,9 @@
 .place__paragraph:first-child {
   margin-bottom: 26px;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__paragraph:first-child {
+    margin-bottom: 27px;
+  }
+}

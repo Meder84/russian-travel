@@ -1,6 +1,6 @@
-.cover__overlay {
+/* .cover__overlay {
   
-}
+ }
 .cover__overlay {
   display: flex;
   flex-direction: column;
@@ -48,4 +48,4 @@
   .cover__overlay {
     padding: calc(33 * 100% / 320) 0;
   }
-}
+}  */
