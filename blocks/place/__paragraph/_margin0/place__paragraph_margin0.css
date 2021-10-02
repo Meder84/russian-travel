@@ -1,0 +1,5 @@
+@media screen and (max-width: 768px) {
+  .place__paragraph_margin0:first-of-type {
+    margin-bottom: 0;
+  }
+}

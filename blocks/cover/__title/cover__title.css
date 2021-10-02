@@ -4,7 +4,32 @@
   margin: 0 0 32px 0;
   font-size: 72px;
   font-weight: 900;
-  line-height: 1.05;
-  border: 1px solid red;
+  line-height: 1.055;
   z-index: 1;
+}
+
+@media screen and (max-width: 890px) {
+  .cover__title {
+    font-size: 9vw;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .cover__title {
+    font-size: 10vw;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover__title {
+    font-size: 11vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    width: calc(100% - (16px * 2));
+    font-size: 32px;
+    line-height: 1.09;
+  }
 }

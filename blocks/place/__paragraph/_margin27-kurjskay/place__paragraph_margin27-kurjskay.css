@@ -1,0 +1,9 @@
+.place__paragraph_margin27-kurjskay {
+  margin-bottom: 26px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__paragraph_margin27-kurjskay {
+    margin-bottom: 27px;
+  }
+}

@@ -1,3 +1,29 @@
 .place_margin {
-  margin: 80px 0 0 0;
+  margin: 80px auto 0 auto;
+}
+
+
+.place_margin:first-child {
+  margin-top: 92px;
+}
+
+@media screen and (max-width: 768px) {
+  .place_margin {
+    margin-top: 73px;
+  }
+  .place_margin:first-child {
+    margin-top: 88px;
+  }
+  .place_margin:last-of-type {
+    margin-top: 72px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place_margin {
+    margin-top: 50px;
+  }
+  .place_margin:first-child {
+    margin-top: 64px;
+  }
 }
