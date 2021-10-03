@@ -11,3 +11,16 @@
     width: calc(100% - (24px * 2));
   }
 }
+
+@media screen and (max-width: 650px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    flex-direction: column;
+  }
+}
