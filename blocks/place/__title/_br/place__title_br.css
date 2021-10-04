@@ -1,0 +1,5 @@
+@media screen and (max-width: 768px) and (min-width: 650px) {
+  .place__title_br {
+    padding-right: 20px;
+  }
+}
