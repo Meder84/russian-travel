@@ -8,17 +8,17 @@
   z-index: 1;
 }
 
-@media screen and (max-width: 890px) {
+/* @media screen and (max-width: 890px) {
   .cover__title {
     font-size: 9vw;
   }
-}
+} */
 
-@media screen and (max-width: 700px) {
+/* @media screen and (max-width: 768px) {
   .cover__title {
     font-size: 10vw;
   }
-}
+} */
 
 @media screen and (max-width: 425px) {
   .cover__title {
