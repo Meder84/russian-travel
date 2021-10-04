@@ -3,7 +3,7 @@
   width: calc(100% - (48px * 2));
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 }
 
 @media screen and (max-width: 768px) {
