@@ -3,12 +3,12 @@
   justify-content: space-between;
   margin: 0 auto;
   padding: 0;
-  width: calc(100% - (48px * 2));
+  max-width: calc(100% - (48px * 2));
 }
 
 @media screen and (max-width: 768px) {
   .footer {
-    width: calc(100% - (24px * 2));
+    max-width: calc(100% - (24px * 2));
   }
 }
 
@@ -22,5 +22,6 @@
 @media screen and (max-width: 320px) {
   .footer {
     flex-direction: column;
+    max-width: calc(100% - (16px * 2));
   }
 }
