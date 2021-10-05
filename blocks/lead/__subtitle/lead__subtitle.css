@@ -12,9 +12,16 @@
     margin-bottom: 56px;
   }
 } 
+
 @media screen and (max-width: 768px) {
   .lead__subtitle {
     width: calc(100% - (64px * 2));
+  }
+} 
+
+@media screen and (max-width: 550px) {
+  .lead__subtitle {
+    font-size: 4vw;
   }
 } 
 
