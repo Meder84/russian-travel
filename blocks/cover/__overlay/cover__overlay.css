@@ -8,7 +8,7 @@
   position: relative;
   align-items: center;
   justify-content: center;
-  padding: calc(245 * 100% / 1184) 0;
+  padding: 20.693% 0;
   box-sizing: border-box;
   width: 100%;
   height: 100%;
@@ -33,7 +33,7 @@ opacity: 0.8;
 
 @media screen and (max-width: 1024px) {
   .cover__overlay {
-    padding: calc(195 * 100% / 1024) 0;
+    padding: 19.043% 0;
   }
 }
 
