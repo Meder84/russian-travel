@@ -10,22 +10,24 @@
 
 <body>
   <div class="page page_dark">
-    <header class="header">
+    <header class="header header_margin">
       <a href="#" class="opacity"><img class="logo" src="./images/logo/header-logo.svg"
           alt="Логотип карта России и рядом текст Россия">
       </a>
-      <nav class="header__lang-links">
-        <p class="header__lang-link">Ru</p>
-        <p class="header__lang-link">En</p>
-      </nav>
+      <ul class="header__lang-links">
+        <li class="header__lang-link opacity">Ru</li>
+        <li class="header__lang-link opacity">En</li>
+      </ul>
     </header>
     <main class="content">
 
-      <section class="lead lead_margin">
+      <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <img class="lead__image" src="./images/header.jfif" alt="Девушка лежит у окошки поезда">
-        <p class="lead__caption">ваша полка — верхняя</p>
+        <figure class="lead__figure">
+          <img class="lead__image" src="./images/header.jfif" alt="Девушка лежит у окошки поезда">
+          <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+        </figure>
       </section>
 
       <section class="intro intro_margin">
@@ -67,14 +69,14 @@
 
       <section class="places">
         <article class="place place_margin">
-          <h2 class="place__title place__title_br">Куршская коса</h2>
+          <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a class="opacity place__link" href="http://park-kosa.ru">park-kosa.ru</a>
           </div>
           <img class="place__image" src="./images/curonian.jpg" alt="Пни и корни торчат из воды.">
           <div class="place__description">
-            <p class="place__paragraph place__paragraph_margin27-kurjskay">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
+            <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
               спокойного Куршского
               залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на
               краю российского анклава.</p>
@@ -95,7 +97,7 @@
           </div>
           <img class="place__image" src="./images/kolsky.jpg" alt="Камменная горая под снегом.">
           <div class="place__description">
-            <p class="place__paragraph place__paragraph_margin26">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой
+            <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой
               на юг —
               тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
             <p class="place__paragraph">Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля в
@@ -115,7 +117,7 @@
           </div>
           <img class="place__image" src="./images/altay.jpg" alt="Ноутбук на фоне зелёного леса.">
           <div class="place__description">
-            <p class="place__paragraph place__paragraph_margin27">Алтай — одно из красивейших мест в России.
+            <p class="place__paragraph">Алтай — одно из красивейших мест в России.
               В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и
               озёра. А если вы откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних мест — горным
               воздухом.</p>
@@ -134,7 +136,7 @@
           </div>
           <img class="place__image" src="./images/ice-patterns.jpg" alt="Ледяные узоры">
           <div class="place__description">
-            <p class="place__paragraph place__paragraph_margin26">Всем известен Байкал как крупнейшее озеро
+            <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро
               в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в
               России.</p>
             <p class="place__paragraph">Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по
@@ -144,6 +146,7 @@
               «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
           </div>
         </article>
+        
         <article class="place place_margin">
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
@@ -152,7 +155,7 @@
           </div>
           <img class="place__image" src="./images/karelian.jpg" alt="Зеленый лес, утро и озеро">
           <div class="place__description">
-            <p class="place__paragraph place__paragraph_margin0">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
+            <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
               лиственница не растёт западнее
               Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых
               болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому
