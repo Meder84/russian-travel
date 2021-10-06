@@ -14,6 +14,7 @@
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/_margin/header_margin.css);
+@import url(../blocks/header/__list/header__list.css);
 
     /* block content  */
 @import url(../blocks/content/content.css);
