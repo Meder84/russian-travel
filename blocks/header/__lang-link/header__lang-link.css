@@ -7,11 +7,6 @@
   color: #fff;
 }
 
-.header__lang-link:hover {
-  cursor: pointer;
-  text-decoration: underline;
-}
-
 @media screen and (max-width: 320px) {
   .header__lang-link {
     font-size: 18px;
