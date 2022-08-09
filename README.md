@@ -1,6 +1,6 @@
 # Проект: Путешествие по России
 * [Ссылка на проект](https://meder84.github.io/russian-travel/index.html)
-* [Анимированная инфографика сайта](https://github.com/Meder84/Meder84/blob/main/gif/russian_Travel.gif)
+* [Анимированная инфографика сайта](https://github.com/Meder84/Meder84/blob/main/gif/russianTravel1024.gif)
 
 ### Обзор
 * Проект: Путешествие по России. Это, сайт о различных направлениях России.
